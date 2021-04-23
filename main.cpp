@@ -48,4 +48,12 @@ int main()
 	MatrixXf matrixG;
 	matrixG = MatrixXf::Constant(2, 2, constant);
 	cout << "\n \n" << matrixG << endl;
+
+	// Identity matrix
+	Matrix <float, 1, 3> vectorA;
+	Matrix3f Idenmatrix;
+	vectorA << 1, 2, 3;
+	cout << vectorA << endl;
+	// Idenmatrix = vectorA.Identity();
+	// cout << "\n \n" << Idenmatrix << endl;
 }
